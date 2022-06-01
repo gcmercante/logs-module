@@ -10,7 +10,7 @@ npm install @gmercante/logs-module
 ## Requisitos
 - Node versão 16 ou superior
 
-## Começando
+## Implementando
 Segue abaixo um exemplo de como você pode utilizar o módulo em sua aplicação.
 
 ``` javascript
