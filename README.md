@@ -4,7 +4,7 @@ Criei esse módulo como forma de estudo de criação de módulo e também como f
 
 Para utilização do módulo, basta rodar o comando
 
-    npm install gmercante-logs
+    npm install @gmercante/logs-module
 
 ## Requisitos
 - Node versão 16 ou superior
@@ -15,16 +15,18 @@ Segue abaixo um exemplo de como você pode utilizar o módulo em sua aplicação
     // usando import
     import { Logger } from 'gmercante-logs';
 
-    const logger = new Logger('debug');
+    const log = new Logger('debug');
 
-    logger.debug('Hello World!');
+    log.debug('Hello World!');
 
     // usando commonJS
     const { Logger } = require('gmercante-logs');
-    const loggerService = new Logger('debug');
+    const log = new Logger('debug');
+    
+    log.debug('Hello World!');
 
     // ou
 
-    const logger = new (require('gmercante-logs')).Logger('debug');
+    const log = new (require('gmercante-logs')).Logger('debug');
 
-    logger.debug('Hello World!');
+    log.debug('Hello World!');
