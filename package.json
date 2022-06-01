@@ -10,7 +10,7 @@
         "build": "tsc --declaration",
         "test": "jest --watchAll",
         "prepare": "husky install",
-        "prepublish": "npm build"
+        "prepublishOnly": "npm build"
     },
     "devDependencies": {
         "@tsconfig/node16": "^1.0.2",
