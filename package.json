@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "",
+    "repository": "https://github.com/gcmercante/logs-module",
     "author": "Gabriel Mercante",
     "license": "MIT",
     "scripts": {
         "build": "tsc --declaration",
         "test": "jest --watchAll",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "prepublish": "npm build"
     },
     "devDependencies": {
         "@tsconfig/node16": "^1.0.2",

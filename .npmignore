@@ -1,4 +1,5 @@
 src/
+.husky/
 tsconfig.json
 .editorconfig
 .eslintignore
@@ -7,3 +8,6 @@ tsconfig.json
 .npmignore
 jest.config.ts
 prettier.config.js
+.lintstagedrc.json
+yarn.lock
+package-lock.json
